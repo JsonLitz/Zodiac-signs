@@ -5,7 +5,7 @@
 Welcome to Zodiac Yo Sign. I created this game for my first project in General Assembly's Web Development Immersive Program and because getting one's horoscope a different way seems unique and pretty cool. I used some of the concepts from a previous project I worked on (Purple Rain memory game), that would also match tiles together. Instead I used dwelved in more and used more DOM manipulation with JQuery along with vanilla.js, used frameworks such as sweetalert and Bootstrap to give it more of an interactive feel and built in conditionals for the days horoscope and easier user interface.
 I've used a few framework libraries to make it look nice aesthetically pleasing.
 
-## Rules
+## Rules 
 1.The rules are really simple. 
 2.Press the start game button and type in your name.
 3. After you match a Zodiac sign, you'll get that zodiac's signs horoscope of the day.

@@ -27,6 +27,8 @@ For design prposes:
 
 I obtained all the images from "http://www.astrology-zodiac-signs.com/" and all my horoscope readings were from "https://www.horoscope.com/us/index.aspx". 
 
+Big thanks to favicomatic, where I created my icon. "http://www.favicomatic.com/" 
+
 ## Motivation
 
 I got my motivation from my buddy,Jimmy Vo, who always wanted to play a Zodiac/read horoscope type of game. 

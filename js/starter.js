@@ -1,8 +1,14 @@
 $(document).ready(function() {
-  swal({   title: "Welcome to Zodiac Yo Sign",   text: "Where you can play a cool matching game along with the day's horoscope reading.",   imageUrl: "sky-stars.gif" , imageSize:"280x280", confirmButtonText: "Cool" });
  console.log('loaded') ;
- var userName=0;
 
+  // From Sweetalert framework
+  swal({   title: "Welcome to Zodiac Yo Sign",
+           text: "Where you can play a cool matching zodiac signs game along with the day's horoscope reading!",
+           imageUrl: "sky-stars.gif" ,
+           imageSize:"280x280",
+           confirmButtonText: "Cool" });
+
+ var userName=0;
 
  var imgArray = [
  // All images are not mine and were taken from http://www.astrology-zodiac-signs.com/
@@ -158,19 +164,12 @@ function tileClicks(matching){
      setTimeout (function() {
           swal("Congratulations on winning " + userName +"!" + " Have a positive, prductive and relaxful day.");
         }, 4000);
-     // This is where we reset the game.
-     // $button.addEventListener('click', function(){
-     //    for (var i = 0; i < tiles.length; i++) {
-     //      // console.log(tiles);
-     //      tiles[i].classList.remove('matched');
-     //      tiles[i].setAttribute('src', " ");
-     //      tiles[i].classList.add('face-down');
-     //      // tiles[i].classList.remove('matched');
-     //      }
-     // });
+
+
   }
 };
 
+     // Function to reset the game.
 $('#resetBtn').on('click', function(){
   location.reload();
 })

@@ -158,19 +158,10 @@ function tileClicks(matching){
      setTimeout (function() {
           swal("Congratulations on winning " + userName +"!" + " Have a positive, prductive and relaxful day.");
         }, 4000);
-     // This is where we reset the game.
-     // $button.addEventListener('click', function(){
-     //    for (var i = 0; i < tiles.length; i++) {
-     //      // console.log(tiles);
-     //      tiles[i].classList.remove('matched');
-     //      tiles[i].setAttribute('src', " ");
-     //      tiles[i].classList.add('face-down');
-     //      // tiles[i].classList.remove('matched');
-     //      }
-     // });
+
   }
 };
-
+// Where we reset the game
 $('#resetBtn').on('click', function(){
   location.reload();
 })

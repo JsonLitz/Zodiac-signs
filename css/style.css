@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  font-family: helvetica;
+}
+
+
+.tile {
+  border-radius: 5em;
+  border: 1px solid blueviolet;
+  width: 6em;
+  height: 6em;
+  display: inline-block;
+}
+
+.container-fluid {
+  width: 52%;
+  height: 40%;
+  margin-top: 7em;
+}
+
+.face-down {
+  background-color: plum;
+}
